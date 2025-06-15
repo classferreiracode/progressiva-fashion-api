@@ -1,0 +1,20 @@
+name: 🚀 Deploy website on push
+on:
+  push:
+    branches: [ master ]
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master' # run this job only for the dev branch
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v4
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
+        server-dir: /public_html/api/
