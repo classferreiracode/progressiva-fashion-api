@@ -10,4 +10,7 @@ class Banner extends Model
     use HasFactory;
 
     protected $fillable = ['image', 'link', 'alt_text', 'status'];
+    protected $casts = [
+        'status' => 'boolean',
+    ];
 }

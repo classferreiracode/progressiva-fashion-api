@@ -2364,8 +2364,10 @@
                 "alt_text",
                 "status"
             ],
-            "hasCasts": false,
-            "casts": [],
+            "hasCasts": true,
+            "casts": {
+                "status": "boolean"
+            },
             "hasGuarded": false,
             "guarded": [
                 "*"
@@ -2407,8 +2409,10 @@
                 "icon",
                 "status"
             ],
-            "hasCasts": false,
-            "casts": [],
+            "hasCasts": true,
+            "casts": {
+                "status": "boolean"
+            },
             "hasGuarded": false,
             "guarded": [
                 "*"
@@ -2419,8 +2423,48 @@
             "dates": [],
             "hasAppends": false,
             "appends": [],
-            "relationships": [],
-            "methods": [],
+            "relationships": [
+                {
+                    "name": "products",
+                    "type": "HasMany",
+                    "foreignKeyName": "category_id",
+                    "ownerKeyName": null,
+                    "foreignPivotKeyName": null,
+                    "relatedPivotKeyName": null,
+                    "parentKeyName": null,
+                    "relatedKeyName": null,
+                    "pivotTableName": null,
+                    "morphType": null,
+                    "localKeyName": "id",
+                    "firstKeyName": null,
+                    "secondKeyName": null,
+                    "relatedTableName": "products",
+                    "relatedModelName": "App\\Models\\Product",
+                    "parentTableName": "categories",
+                    "parentModelName": "App\\Models\\Category",
+                    "method": "    public function products()\r\n    {\r\n        return $this->hasMany(Product::class);\r\n    }\r\n",
+                    "withPivotColumns": false,
+                    "includedPivotColumns": []
+                }
+            ],
+            "methods": [
+                {
+                    "name": "getRouteKeyName",
+                    "content": "    public function getRouteKeyName()\r\n    {\r\n        return 'slug';\r\n    }\r\n"
+                },
+                {
+                    "name": "scopeFilter",
+                    "content": "    public function scopeFilter($query, array $filters)\r\n    {\r\n        if ($filters['search'] ?? false) {\r\n            $query->where('name', 'like', '%' . request('search') . '%');\r\n        }\r\n\r\n        if ($filters['status'] ?? false) {\r\n            $query->where('status', request('status'));\r\n        }\r\n    }\r\n"
+                },
+                {
+                    "name": "scopeActive",
+                    "content": "    public function scopeActive($query)\r\n    {\r\n        return $query->where('status', true);\r\n    }\r\n"
+                },
+                {
+                    "name": "scopeInactive",
+                    "content": "    public function scopeInactive($query)\r\n    {\r\n        return $query->where('status', false);\r\n    }\r\n"
+                }
+            ],
             "hasTimestamps": true,
             "hasSoftDeletes": true,
             "isAuthenticatable": false
@@ -2447,8 +2491,10 @@
                 "answer",
                 "status"
             ],
-            "hasCasts": false,
-            "casts": [],
+            "hasCasts": true,
+            "casts": {
+                "status": "boolean"
+            },
             "hasGuarded": false,
             "guarded": [
                 "*"
@@ -2495,8 +2541,11 @@
                 "external_link",
                 "status"
             ],
-            "hasCasts": false,
-            "casts": [],
+            "hasCasts": true,
+            "casts": {
+                "featured": "boolean",
+                "status": "boolean"
+            },
             "hasGuarded": false,
             "guarded": [
                 "*"
@@ -2507,8 +2556,40 @@
             "dates": [],
             "hasAppends": false,
             "appends": [],
-            "relationships": [],
-            "methods": [],
+            "relationships": [
+                {
+                    "name": "category",
+                    "type": "BelongsTo",
+                    "foreignKeyName": "category_id",
+                    "ownerKeyName": "id",
+                    "foreignPivotKeyName": null,
+                    "relatedPivotKeyName": null,
+                    "parentKeyName": null,
+                    "relatedKeyName": null,
+                    "pivotTableName": null,
+                    "morphType": null,
+                    "localKeyName": null,
+                    "firstKeyName": null,
+                    "secondKeyName": null,
+                    "relatedTableName": "categories",
+                    "relatedModelName": "App\\Models\\Category",
+                    "parentTableName": "products",
+                    "parentModelName": "App\\Models\\Product",
+                    "method": "    public function category()\r\n    {\r\n        return $this->belongsTo(Category::class);\r\n    }\r\n",
+                    "withPivotColumns": false,
+                    "includedPivotColumns": []
+                }
+            ],
+            "methods": [
+                {
+                    "name": "getRouteKeyName",
+                    "content": "    public function getRouteKeyName()\r\n    {\r\n        return 'slug';\r\n    }\r\n"
+                },
+                {
+                    "name": "scopeFilter",
+                    "content": "    public function scopeFilter($query, array $filters)\r\n    {\r\n        if ($filters['search'] ?? false) {\r\n            $query->where('title', 'like', '%' . request('search') . '%');\r\n        }\r\n\r\n        if ($filters['category'] ?? false) {\r\n            $query->whereHas('category', function ($query) {\r\n                $query->where('slug', request('category'));\r\n            });\r\n        }\r\n    }\r\n"
+                }
+            ],
             "hasTimestamps": true,
             "hasSoftDeletes": true,
             "isAuthenticatable": false
@@ -2537,8 +2618,11 @@
                 "rating",
                 "status"
             ],
-            "hasCasts": false,
-            "casts": [],
+            "hasCasts": true,
+            "casts": {
+                "rating": "integer",
+                "status": "boolean"
+            },
             "hasGuarded": false,
             "guarded": [
                 "*"

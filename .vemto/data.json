@@ -5,7 +5,7 @@
                 "uuid": "e81aaf35-2861-42a4-b99a-5cc68519d0a1",
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:45",
-                "updatedAt": "2025-06-15 12:34:10",
+                "updatedAt": "2025-06-15 12:47:57",
                 "settings": {
                     "cssFramework": "tailwind",
                     "uiStarterKit": "breeze",
@@ -25,7 +25,7 @@
                     "schemaReaderDbDatabase": "vemto_schema_reader",
                     "laravelVersion": "11.31"
                 },
-                "canShowSchemaSourceChangesAlert": true,
+                "canShowSchemaSourceChangesAlert": false,
                 "codeGenerationSettings": {
                     "models": true,
                     "factories": true,
@@ -97,7 +97,7 @@
                 "vthemeCdn": "https://cdn.tailwindcss.com",
                 "connectionFinished": true,
                 "canIgnoreNextSchemaSourceChanges": false,
-                "lastReadSchemaDataHash": "d4a3168c3daba303d9a3c99d9544aa9e",
+                "lastReadSchemaDataHash": "3f7734656facd9a84a549959ae17a2d5",
                 "currentRenderedFilesPaths": [
                     "/lang/en//navigation.php",
                     "resources/views/components/ui//toast.blade.php",
@@ -280,6 +280,10 @@
                                 64,
                                 65,
                                 66
+                            ],
+                            "relationships.projectId": [
+                                1,
+                                2
                             ]
                         }
                     }
@@ -330,7 +334,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -616,7 +620,7 @@
                 },
                 "id": 2,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": 0,
                 "positionY": 700,
                 "sectionId": 2,
@@ -664,7 +668,7 @@
                 },
                 "id": 3,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": 495,
                 "positionY": 495,
                 "sectionId": 2,
@@ -712,7 +716,7 @@
                 },
                 "id": 4,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": 700,
                 "positionY": 0,
                 "sectionId": 2,
@@ -760,7 +764,7 @@
                 },
                 "id": 5,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": 495,
                 "positionY": -495,
                 "sectionId": 2,
@@ -780,7 +784,7 @@
                 },
                 "id": 6,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": 0,
                 "positionY": -700,
                 "sectionId": 2,
@@ -828,7 +832,7 @@
                 },
                 "id": 7,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": -495,
                 "positionY": -495,
                 "sectionId": 2,
@@ -872,7 +876,7 @@
                 },
                 "id": 8,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": -700,
                 "positionY": 0,
                 "sectionId": 2,
@@ -920,7 +924,7 @@
                 },
                 "id": 9,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": -495,
                 "positionY": 495,
                 "sectionId": 2,
@@ -968,7 +972,7 @@
                 },
                 "id": 10,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": -600,
                 "positionY": 0,
                 "sectionId": 1,
@@ -981,7 +985,7 @@
                 "createdFromInterface": false,
                 "id": 11,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": -200,
                 "positionY": 0,
                 "removed": false,
@@ -1025,15 +1029,15 @@
                 "createdFromInterface": false,
                 "id": 12,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:30:41",
-                "positionX": "153.333",
-                "positionY": "0",
+                "updatedAt": "2025-06-15 12:47:57",
+                "positionX": "248",
+                "positionY": "-41.25",
                 "removed": false,
                 "migrations": [
                     {
-                        "migration": "D:\\laragon\\www\\progressiva-fashion/database/migrations/2025_06_15_153027_002_create_categories_table.php",
-                        "relativePath": "/database/migrations/2025_06_15_153027_002_create_categories_table.php",
-                        "migrationName": "2025_06_15_153027_002_create_categories_table",
+                        "migration": "D:\\laragon\\www\\progressiva-fashion/database/migrations/2025_06_15_153027_000_create_categories_table.php",
+                        "relativePath": "/database/migrations/2025_06_15_153027_000_create_categories_table.php",
+                        "migrationName": "2025_06_15_153027_000_create_categories_table",
                         "datePrefix": "2025_06_15",
                         "fullPrefix": "2025_06_15_153027",
                         "createdTables": [
@@ -1049,9 +1053,9 @@
                     "oldNames": [],
                     "migrations": [
                         {
-                            "migration": "D:\\laragon\\www\\progressiva-fashion/database/migrations/2025_06_15_153027_002_create_categories_table.php",
-                            "relativePath": "/database/migrations/2025_06_15_153027_002_create_categories_table.php",
-                            "migrationName": "2025_06_15_153027_002_create_categories_table",
+                            "migration": "D:\\laragon\\www\\progressiva-fashion/database/migrations/2025_06_15_153027_000_create_categories_table.php",
+                            "relativePath": "/database/migrations/2025_06_15_153027_000_create_categories_table.php",
+                            "migrationName": "2025_06_15_153027_000_create_categories_table",
                             "datePrefix": "2025_06_15",
                             "fullPrefix": "2025_06_15_153027",
                             "createdTables": [
@@ -1069,9 +1073,9 @@
                 "createdFromInterface": false,
                 "id": 13,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:30:40",
-                "positionX": "490",
-                "positionY": "0",
+                "updatedAt": "2025-06-15 12:47:57",
+                "positionX": "672.5",
+                "positionY": "-42.5",
                 "removed": false,
                 "migrations": [
                     {
@@ -1113,7 +1117,7 @@
                 "createdFromInterface": false,
                 "id": 14,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "positionX": "-602",
                 "positionY": "375",
                 "removed": false,
@@ -1157,9 +1161,9 @@
                 "createdFromInterface": false,
                 "id": 15,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:30:41",
-                "positionX": "154",
-                "positionY": "370",
+                "updatedAt": "2025-06-15 12:47:57",
+                "positionX": "253.75",
+                "positionY": "379",
                 "removed": false,
                 "migrations": [
                     {
@@ -1229,7 +1233,7 @@
                 "options": [],
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "__tableData": {
                 "count": 103,
@@ -1497,13 +1501,20 @@
                             "fillable_model_column.columnId": [
                                 6
                             ],
-                            "index_column.columnId": []
+                            "index_column.columnId": [],
+                            "relationships.foreignKeyId": [
+                                1,
+                                2
+                            ]
                         }
                     },
                     "67": {
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 7
+                            ],
+                            "casts_model_column.columnId": [
+                                6
                             ]
                         }
                     },
@@ -1542,6 +1553,9 @@
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 12
+                            ],
+                            "casts_model_column.columnId": [
+                                7
                             ]
                         }
                     },
@@ -1550,7 +1564,11 @@
                     },
                     "75": {
                         "hasMany": {
-                            "indices.referencesColumnId": []
+                            "indices.referencesColumnId": [],
+                            "relationships.parentKeyId": [
+                                1,
+                                2
+                            ]
                         }
                     },
                     "76": {
@@ -1584,6 +1602,9 @@
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 16
+                            ],
+                            "casts_model_column.columnId": [
+                                4
                             ]
                         }
                     },
@@ -1621,6 +1642,9 @@
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 20
+                            ],
+                            "casts_model_column.columnId": [
+                                3
                             ]
                         }
                     },
@@ -1654,6 +1678,9 @@
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 23
+                            ],
+                            "casts_model_column.columnId": [
+                                5
                             ]
                         }
                     },
@@ -1691,6 +1718,9 @@
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 27
+                            ],
+                            "casts_model_column.columnId": [
+                                8
                             ]
                         }
                     },
@@ -1698,6 +1728,9 @@
                         "hasMany": {
                             "fillable_model_column.columnId": [
                                 28
+                            ],
+                            "casts_model_column.columnId": [
+                                9
                             ]
                         }
                     }
@@ -1739,7 +1772,7 @@
                 "options": [],
                 "id": 2,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_3": {
                 "name": "expiration",
@@ -1774,7 +1807,7 @@
                 "options": [],
                 "id": 3,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_4": {
                 "name": "key",
@@ -1809,7 +1842,7 @@
                 "options": [],
                 "id": 4,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_5": {
                 "name": "owner",
@@ -1844,7 +1877,7 @@
                 "options": [],
                 "id": 5,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_6": {
                 "name": "expiration",
@@ -1879,7 +1912,7 @@
                 "options": [],
                 "id": 6,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_7": {
                 "name": "id",
@@ -1913,7 +1946,7 @@
                 "options": [],
                 "id": 7,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_8": {
                 "name": "uuid",
@@ -1948,7 +1981,7 @@
                 "options": [],
                 "id": 8,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_9": {
                 "name": "connection",
@@ -1983,7 +2016,7 @@
                 "options": [],
                 "id": 9,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_10": {
                 "name": "queue",
@@ -2018,7 +2051,7 @@
                 "options": [],
                 "id": 10,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_11": {
                 "name": "payload",
@@ -2053,7 +2086,7 @@
                 "options": [],
                 "id": 11,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_12": {
                 "name": "exception",
@@ -2088,7 +2121,7 @@
                 "options": [],
                 "id": 12,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_13": {
                 "name": "failed_at",
@@ -2123,7 +2156,7 @@
                 "options": [],
                 "id": 13,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_14": {
                 "name": "id",
@@ -2157,7 +2190,7 @@
                 "options": [],
                 "id": 14,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_15": {
                 "name": "name",
@@ -2192,7 +2225,7 @@
                 "options": [],
                 "id": 15,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_16": {
                 "name": "total_jobs",
@@ -2227,7 +2260,7 @@
                 "options": [],
                 "id": 16,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_17": {
                 "name": "pending_jobs",
@@ -2262,7 +2295,7 @@
                 "options": [],
                 "id": 17,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_18": {
                 "name": "failed_jobs",
@@ -2297,7 +2330,7 @@
                 "options": [],
                 "id": 18,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_19": {
                 "name": "failed_job_ids",
@@ -2332,7 +2365,7 @@
                 "options": [],
                 "id": 19,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_20": {
                 "name": "options",
@@ -2367,7 +2400,7 @@
                 "options": [],
                 "id": 20,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_21": {
                 "name": "cancelled_at",
@@ -2402,7 +2435,7 @@
                 "options": [],
                 "id": 21,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_22": {
                 "name": "created_at",
@@ -2437,7 +2470,7 @@
                 "options": [],
                 "id": 22,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_23": {
                 "name": "finished_at",
@@ -2472,7 +2505,7 @@
                 "options": [],
                 "id": 23,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_24": {
                 "name": "id",
@@ -2506,7 +2539,7 @@
                 "options": [],
                 "id": 24,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_25": {
                 "name": "queue",
@@ -2541,7 +2574,7 @@
                 "options": [],
                 "id": 25,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_26": {
                 "name": "payload",
@@ -2576,7 +2609,7 @@
                 "options": [],
                 "id": 26,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_27": {
                 "name": "attempts",
@@ -2611,7 +2644,7 @@
                 "options": [],
                 "id": 27,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_28": {
                 "name": "reserved_at",
@@ -2646,7 +2679,7 @@
                 "options": [],
                 "id": 28,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_29": {
                 "name": "available_at",
@@ -2681,7 +2714,7 @@
                 "options": [],
                 "id": 29,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_30": {
                 "name": "created_at",
@@ -2716,7 +2749,7 @@
                 "options": [],
                 "id": 30,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_31": {
                 "name": "id",
@@ -2750,7 +2783,7 @@
                 "options": [],
                 "id": 31,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_32": {
                 "name": "migration",
@@ -2785,7 +2818,7 @@
                 "options": [],
                 "id": 32,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_33": {
                 "name": "batch",
@@ -2820,7 +2853,7 @@
                 "options": [],
                 "id": 33,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_34": {
                 "name": "email",
@@ -2855,7 +2888,7 @@
                 "options": [],
                 "id": 34,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_35": {
                 "name": "token",
@@ -2890,7 +2923,7 @@
                 "options": [],
                 "id": 35,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_36": {
                 "name": "created_at",
@@ -2925,7 +2958,7 @@
                 "options": [],
                 "id": 36,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_37": {
                 "name": "id",
@@ -2959,7 +2992,7 @@
                 "options": [],
                 "id": 37,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_38": {
                 "name": "tokenable_type",
@@ -2994,7 +3027,7 @@
                 "options": [],
                 "id": 38,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_39": {
                 "name": "tokenable_id",
@@ -3029,7 +3062,7 @@
                 "options": [],
                 "id": 39,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_40": {
                 "name": "name",
@@ -3064,7 +3097,7 @@
                 "options": [],
                 "id": 40,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_41": {
                 "name": "token",
@@ -3099,7 +3132,7 @@
                 "options": [],
                 "id": 41,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_42": {
                 "name": "abilities",
@@ -3134,7 +3167,7 @@
                 "options": [],
                 "id": 42,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_43": {
                 "name": "last_used_at",
@@ -3169,7 +3202,7 @@
                 "options": [],
                 "id": 43,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_44": {
                 "name": "expires_at",
@@ -3204,7 +3237,7 @@
                 "options": [],
                 "id": 44,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_45": {
                 "name": "created_at",
@@ -3239,7 +3272,7 @@
                 "options": [],
                 "id": 45,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_46": {
                 "name": "updated_at",
@@ -3274,7 +3307,7 @@
                 "options": [],
                 "id": 46,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_47": {
                 "name": "id",
@@ -3308,7 +3341,7 @@
                 "options": [],
                 "id": 47,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_48": {
                 "name": "user_id",
@@ -3343,7 +3376,7 @@
                 "options": [],
                 "id": 48,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_49": {
                 "name": "ip_address",
@@ -3378,7 +3411,7 @@
                 "options": [],
                 "id": 49,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_50": {
                 "name": "user_agent",
@@ -3413,7 +3446,7 @@
                 "options": [],
                 "id": 50,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_51": {
                 "name": "payload",
@@ -3448,7 +3481,7 @@
                 "options": [],
                 "id": 51,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_52": {
                 "name": "last_activity",
@@ -3483,7 +3516,7 @@
                 "options": [],
                 "id": 52,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_53": {
                 "name": "id",
@@ -3517,7 +3550,7 @@
                 "options": [],
                 "id": 53,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_54": {
                 "name": "name",
@@ -3552,7 +3585,7 @@
                 "options": [],
                 "id": 54,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_55": {
                 "name": "email",
@@ -3587,7 +3620,7 @@
                 "options": [],
                 "id": 55,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_56": {
                 "name": "email_verified_at",
@@ -3622,7 +3655,7 @@
                 "options": [],
                 "id": 56,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_57": {
                 "name": "password",
@@ -3657,7 +3690,7 @@
                 "options": [],
                 "id": 57,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_58": {
                 "name": "remember_token",
@@ -3692,7 +3725,7 @@
                 "options": [],
                 "id": 58,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_59": {
                 "name": "created_at",
@@ -3727,7 +3760,7 @@
                 "options": [],
                 "id": 59,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_60": {
                 "name": "updated_at",
@@ -3762,7 +3795,7 @@
                 "options": [],
                 "id": 60,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41"
+                "updatedAt": "2025-06-15 12:47:57"
             },
             "item_61": {
                 "name": "id",
@@ -3793,7 +3826,7 @@
                 "order": 0,
                 "id": 61,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -3828,7 +3861,7 @@
                 "order": 11,
                 "id": 62,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -3863,7 +3896,7 @@
                 "order": 12,
                 "id": 63,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -3897,7 +3930,7 @@
                 "faker": "fake()->sentence(10)",
                 "id": 64,
                 "createdAt": "2025-06-15 00:38:20",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -3932,7 +3965,7 @@
                 "faker": "fake()->unique->slug()",
                 "id": 65,
                 "createdAt": "2025-06-15 00:38:29",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -3949,7 +3982,7 @@
                 "schemaState": {
                     "name": "category_id",
                     "length": null,
-                    "nullable": true,
+                    "nullable": false,
                     "unsigned": false,
                     "autoIncrement": false,
                     "type": "integer",
@@ -3960,14 +3993,14 @@
                     "places": null,
                     "options": []
                 },
-                "nullable": true,
+                "nullable": false,
                 "unsigned": false,
                 "default": null,
                 "autoIncrement": false,
                 "faker": "fake()->randomNumber()",
                 "id": 66,
                 "createdAt": "2025-06-15 00:38:36",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -4002,7 +4035,7 @@
                 "faker": "fake()->boolean()",
                 "id": 67,
                 "createdAt": "2025-06-15 00:38:53",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -4037,7 +4070,7 @@
                 "faker": "fake()->sentence(15)",
                 "id": 68,
                 "createdAt": "2025-06-15 00:39:44",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 5,
                 "total": null,
                 "places": null,
@@ -4072,7 +4105,7 @@
                 "faker": "fake()->randomFloat(2, 0, 9999)",
                 "id": 69,
                 "createdAt": "2025-06-15 00:40:48",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 6,
                 "total": null,
                 "places": 0,
@@ -4107,7 +4140,7 @@
                 "faker": "fake()->randomFloat(2, 0, 9999)",
                 "id": 70,
                 "createdAt": "2025-06-15 00:40:53",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 7,
                 "total": null,
                 "places": 0,
@@ -4142,7 +4175,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 71,
                 "createdAt": "2025-06-15 00:41:24",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 8,
                 "total": null,
                 "places": null,
@@ -4178,7 +4211,7 @@
                 "project": 1,
                 "id": 72,
                 "createdAt": "2025-06-15 00:41:57",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 13,
                 "total": null,
                 "places": null,
@@ -4213,7 +4246,7 @@
                 "faker": "fake()->word()",
                 "id": 73,
                 "createdAt": "2025-06-15 00:42:15",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 9,
                 "total": null,
                 "places": null,
@@ -4247,7 +4280,7 @@
                 "autoIncrement": false,
                 "id": 74,
                 "createdAt": "2025-06-15 00:42:54",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 10,
                 "total": null,
                 "places": null,
@@ -4282,7 +4315,7 @@
                 "order": 0,
                 "id": 75,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4317,7 +4350,7 @@
                 "order": 5,
                 "id": 76,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4352,7 +4385,7 @@
                 "order": 6,
                 "id": 77,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4386,7 +4419,7 @@
                 "faker": "fake()->name()",
                 "id": 78,
                 "createdAt": "2025-06-15 00:44:39",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -4421,7 +4454,7 @@
                 "faker": "fake()->slug()",
                 "id": 79,
                 "createdAt": "2025-06-15 00:44:43",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -4455,7 +4488,7 @@
                 "autoIncrement": false,
                 "id": 80,
                 "createdAt": "2025-06-15 00:44:48",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -4490,7 +4523,7 @@
                 "faker": "fake()->word()",
                 "id": 81,
                 "createdAt": "2025-06-15 00:45:02",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -4525,7 +4558,7 @@
                 "order": 0,
                 "id": 82,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4560,7 +4593,7 @@
                 "order": 5,
                 "id": 83,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4595,7 +4628,7 @@
                 "order": 6,
                 "id": 84,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4628,7 +4661,7 @@
                 "autoIncrement": false,
                 "id": 85,
                 "createdAt": "2025-06-15 00:47:39",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -4663,7 +4696,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 86,
                 "createdAt": "2025-06-15 00:47:43",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -4698,7 +4731,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 87,
                 "createdAt": "2025-06-15 00:47:53",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -4733,7 +4766,7 @@
                 "faker": "fake()->word()",
                 "id": 88,
                 "createdAt": "2025-06-15 00:48:15",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -4769,7 +4802,7 @@
                 "project": 1,
                 "id": 89,
                 "createdAt": "2025-06-15 00:49:37",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 7,
                 "total": null,
                 "places": null,
@@ -4804,7 +4837,7 @@
                 "order": 0,
                 "id": 90,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4839,7 +4872,7 @@
                 "order": 4,
                 "id": 91,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4874,7 +4907,7 @@
                 "order": 5,
                 "id": 92,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4908,7 +4941,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 93,
                 "createdAt": "2025-06-15 12:27:32",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -4943,7 +4976,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 94,
                 "createdAt": "2025-06-15 12:27:42",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -4978,7 +5011,7 @@
                 "faker": "fake()->word()",
                 "id": 95,
                 "createdAt": "2025-06-15 12:27:54",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -5013,7 +5046,7 @@
                 "order": 0,
                 "id": 96,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -5048,7 +5081,7 @@
                 "order": 6,
                 "id": 97,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -5083,7 +5116,7 @@
                 "order": 7,
                 "id": 98,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "total": null,
                 "places": null,
                 "options": []
@@ -5117,7 +5150,7 @@
                 "faker": "fake()->name()",
                 "id": 99,
                 "createdAt": "2025-06-15 12:29:01",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -5151,7 +5184,7 @@
                 "autoIncrement": false,
                 "id": 100,
                 "createdAt": "2025-06-15 12:29:06",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -5186,7 +5219,7 @@
                 "faker": "fake()->text()",
                 "id": 101,
                 "createdAt": "2025-06-15 12:29:11",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -5221,7 +5254,7 @@
                 "faker": "fake()->randomFloat(1, 1, 5)",
                 "id": 102,
                 "createdAt": "2025-06-15 12:29:18",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -5256,7 +5289,7 @@
                 "faker": "fake()->word()",
                 "id": 103,
                 "createdAt": "2025-06-15 12:29:32",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "order": 5,
                 "total": null,
                 "places": null,
@@ -5290,7 +5323,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "removed": false
             },
             "__tableData": {
@@ -5371,7 +5404,7 @@
                 },
                 "id": 2,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "removed": false
             },
             "item_3": {
@@ -5400,7 +5433,7 @@
                 },
                 "id": 3,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "removed": false
             },
             "item_4": {
@@ -5429,7 +5462,7 @@
                 },
                 "id": 4,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "removed": false
             },
             "item_5": {
@@ -5460,7 +5493,7 @@
                 },
                 "id": 5,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "removed": false
             },
             "item_6": {
@@ -5489,7 +5522,7 @@
                 },
                 "id": 6,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:30:41",
+                "updatedAt": "2025-06-15 12:47:57",
                 "removed": false
             }
         },
@@ -5666,7 +5699,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:31:51",
+                "updatedAt": "2025-06-15 12:47:57",
                 "plural": "Users",
                 "pluralAndSingularAreSame": false,
                 "tableId": 10,
@@ -5709,6 +5742,16 @@
                                 10,
                                 11,
                                 12
+                            ],
+                            "relationships.relatedModelId": [
+                                1
+                            ],
+                            "casts_model_column.modelId": [
+                                6,
+                                7
+                            ],
+                            "relationships.modelId": [
+                                2
                             ]
                         }
                     },
@@ -5719,6 +5762,15 @@
                                 14,
                                 15,
                                 16
+                            ],
+                            "casts_model_column.modelId": [
+                                4
+                            ],
+                            "relationships.modelId": [
+                                1
+                            ],
+                            "relationships.relatedModelId": [
+                                2
                             ]
                         }
                     },
@@ -5729,6 +5781,9 @@
                                 18,
                                 19,
                                 20
+                            ],
+                            "casts_model_column.modelId": [
+                                3
                             ]
                         }
                     },
@@ -5738,6 +5793,9 @@
                                 21,
                                 22,
                                 23
+                            ],
+                            "casts_model_column.modelId": [
+                                5
                             ]
                         }
                     },
@@ -5749,6 +5807,10 @@
                                 26,
                                 27,
                                 28
+                            ],
+                            "casts_model_column.modelId": [
+                                8,
+                                9
                             ]
                         }
                     }
@@ -5782,7 +5844,16 @@
                 "seederQuantity": 5,
                 "attributesComments": false,
                 "methodsComments": false,
-                "methods": [],
+                "methods": [
+                    {
+                        "name": "getRouteKeyName",
+                        "content": "    public function getRouteKeyName()\r\n    {\r\n        return 'slug';\r\n    }\r\n"
+                    },
+                    {
+                        "name": "scopeFilter",
+                        "content": "    public function scopeFilter($query, array $filters)\r\n    {\r\n        if ($filters['search'] ?? false) {\r\n            $query->where('title', 'like', '%' . request('search') . '%');\r\n        }\r\n\r\n        if ($filters['category'] ?? false) {\r\n            $query->whereHas('category', function ($query) {\r\n                $query->where('slug', request('category'));\r\n            });\r\n        }\r\n    }\r\n"
+                    }
+                ],
                 "allImports": [
                     "Illuminate\\Database\\Eloquent\\Model",
                     "Illuminate\\Database\\Eloquent\\SoftDeletes",
@@ -5801,11 +5872,14 @@
                 ],
                 "hidden": [],
                 "dates": [],
-                "casts": [],
+                "casts": {
+                    "featured": "boolean",
+                    "status": "boolean"
+                },
                 "appends": [],
                 "id": 2,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:31:51",
+                "updatedAt": "2025-06-15 12:47:57",
                 "hasSoftDeletes": true,
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
@@ -5820,7 +5894,10 @@
                     "class": "App\\Models\\Product",
                     "namespace": "App\\Models",
                     "path": "Models\\Product.php",
-                    "casts": [],
+                    "casts": {
+                        "featured": "boolean",
+                        "status": "boolean"
+                    },
                     "fillable": [
                         "title",
                         "slug",
@@ -5838,7 +5915,16 @@
                     "dates": [],
                     "hidden": [],
                     "appends": [],
-                    "methods": [],
+                    "methods": [
+                        {
+                            "name": "getRouteKeyName",
+                            "content": "    public function getRouteKeyName()\r\n    {\r\n        return 'slug';\r\n    }\r\n"
+                        },
+                        {
+                            "name": "scopeFilter",
+                            "content": "    public function scopeFilter($query, array $filters)\r\n    {\r\n        if ($filters['search'] ?? false) {\r\n            $query->where('title', 'like', '%' . request('search') . '%');\r\n        }\r\n\r\n        if ($filters['category'] ?? false) {\r\n            $query->whereHas('category', function ($query) {\r\n                $query->where('slug', request('category'));\r\n            });\r\n        }\r\n    }\r\n"
+                        }
+                    ],
                     "parentClass": "Illuminate\\Database\\Eloquent\\Model",
                     "interfaces": [],
                     "traits": [
@@ -5882,7 +5968,24 @@
                 "seederQuantity": 5,
                 "attributesComments": false,
                 "methodsComments": false,
-                "methods": [],
+                "methods": [
+                    {
+                        "name": "getRouteKeyName",
+                        "content": "    public function getRouteKeyName()\r\n    {\r\n        return 'slug';\r\n    }\r\n"
+                    },
+                    {
+                        "name": "scopeFilter",
+                        "content": "    public function scopeFilter($query, array $filters)\r\n    {\r\n        if ($filters['search'] ?? false) {\r\n            $query->where('name', 'like', '%' . request('search') . '%');\r\n        }\r\n\r\n        if ($filters['status'] ?? false) {\r\n            $query->where('status', request('status'));\r\n        }\r\n    }\r\n"
+                    },
+                    {
+                        "name": "scopeActive",
+                        "content": "    public function scopeActive($query)\r\n    {\r\n        return $query->where('status', true);\r\n    }\r\n"
+                    },
+                    {
+                        "name": "scopeInactive",
+                        "content": "    public function scopeInactive($query)\r\n    {\r\n        return $query->where('status', false);\r\n    }\r\n"
+                    }
+                ],
                 "allImports": [
                     "Illuminate\\Database\\Eloquent\\Model",
                     "Illuminate\\Database\\Eloquent\\SoftDeletes",
@@ -5896,11 +5999,13 @@
                 ],
                 "hidden": [],
                 "dates": [],
-                "casts": [],
+                "casts": {
+                    "status": "boolean"
+                },
                 "appends": [],
                 "id": 3,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:31:51",
+                "updatedAt": "2025-06-15 12:47:57",
                 "hasFillable": true,
                 "hasSoftDeletes": true,
                 "hooksWhenSchemaWasRead": {},
@@ -5915,7 +6020,9 @@
                     "class": "App\\Models\\Category",
                     "namespace": "App\\Models",
                     "path": "Models\\Category.php",
-                    "casts": [],
+                    "casts": {
+                        "status": "boolean"
+                    },
                     "fillable": [
                         "name",
                         "slug",
@@ -5928,7 +6035,24 @@
                     "dates": [],
                     "hidden": [],
                     "appends": [],
-                    "methods": [],
+                    "methods": [
+                        {
+                            "name": "getRouteKeyName",
+                            "content": "    public function getRouteKeyName()\r\n    {\r\n        return 'slug';\r\n    }\r\n"
+                        },
+                        {
+                            "name": "scopeFilter",
+                            "content": "    public function scopeFilter($query, array $filters)\r\n    {\r\n        if ($filters['search'] ?? false) {\r\n            $query->where('name', 'like', '%' . request('search') . '%');\r\n        }\r\n\r\n        if ($filters['status'] ?? false) {\r\n            $query->where('status', request('status'));\r\n        }\r\n    }\r\n"
+                        },
+                        {
+                            "name": "scopeActive",
+                            "content": "    public function scopeActive($query)\r\n    {\r\n        return $query->where('status', true);\r\n    }\r\n"
+                        },
+                        {
+                            "name": "scopeInactive",
+                            "content": "    public function scopeInactive($query)\r\n    {\r\n        return $query->where('status', false);\r\n    }\r\n"
+                        }
+                    ],
                     "parentClass": "Illuminate\\Database\\Eloquent\\Model",
                     "interfaces": [],
                     "traits": [
@@ -5984,11 +6108,13 @@
                 ],
                 "hidden": [],
                 "dates": [],
-                "casts": [],
+                "casts": {
+                    "status": "boolean"
+                },
                 "appends": [],
                 "id": 4,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:31:51",
+                "updatedAt": "2025-06-15 12:47:57",
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
                 "removed": false,
@@ -6003,7 +6129,9 @@
                     "class": "App\\Models\\Banner",
                     "namespace": "App\\Models",
                     "path": "Models\\Banner.php",
-                    "casts": [],
+                    "casts": {
+                        "status": "boolean"
+                    },
                     "fillable": [
                         "image",
                         "link",
@@ -6069,11 +6197,13 @@
                 ],
                 "hidden": [],
                 "dates": [],
-                "casts": [],
+                "casts": {
+                    "status": "boolean"
+                },
                 "appends": [],
                 "id": 5,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:31:51",
+                "updatedAt": "2025-06-15 12:47:57",
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
                 "removed": false,
@@ -6088,7 +6218,9 @@
                     "class": "App\\Models\\Faq",
                     "namespace": "App\\Models",
                     "path": "Models\\Faq.php",
-                    "casts": [],
+                    "casts": {
+                        "status": "boolean"
+                    },
                     "fillable": [
                         "question",
                         "answer",
@@ -6155,11 +6287,14 @@
                 ],
                 "hidden": [],
                 "dates": [],
-                "casts": [],
+                "casts": {
+                    "rating": "integer",
+                    "status": "boolean"
+                },
                 "appends": [],
                 "id": 6,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:31:51",
+                "updatedAt": "2025-06-15 12:47:57",
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
                 "removed": false,
@@ -6174,7 +6309,10 @@
                     "class": "App\\Models\\Testimonial",
                     "namespace": "App\\Models",
                     "path": "Models\\Testimonial.php",
-                    "casts": [],
+                    "casts": {
+                        "rating": "integer",
+                        "status": "boolean"
+                    },
                     "fillable": [
                         "name",
                         "photo",
@@ -6538,13 +6676,34 @@
                 "type": "datetime"
             },
             "__tableData": {
-                "count": 2,
-                "lastPrimaryKey": 2,
+                "count": 9,
+                "lastPrimaryKey": 9,
                 "index": {
                     "1": {
                         "hasMany": {}
                     },
                     "2": {
+                        "hasMany": {}
+                    },
+                    "3": {
+                        "hasMany": {}
+                    },
+                    "4": {
+                        "hasMany": {}
+                    },
+                    "5": {
+                        "hasMany": {}
+                    },
+                    "6": {
+                        "hasMany": {}
+                    },
+                    "7": {
+                        "hasMany": {}
+                    },
+                    "8": {
+                        "hasMany": {}
+                    },
+                    "9": {
                         "hasMany": {}
                     }
                 },
@@ -6559,6 +6718,62 @@
                 "createdAt": "2025-06-14 23:33:46",
                 "updatedAt": "2025-06-14 23:33:46",
                 "type": "hashed"
+            },
+            "item_3": {
+                "modelId": 4,
+                "columnId": 88,
+                "id": 3,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "boolean"
+            },
+            "item_4": {
+                "modelId": 3,
+                "columnId": 81,
+                "id": 4,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "boolean"
+            },
+            "item_5": {
+                "modelId": 5,
+                "columnId": 95,
+                "id": 5,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "boolean"
+            },
+            "item_6": {
+                "modelId": 2,
+                "columnId": 67,
+                "id": 6,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "boolean"
+            },
+            "item_7": {
+                "modelId": 2,
+                "columnId": 73,
+                "id": 7,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "boolean"
+            },
+            "item_8": {
+                "modelId": 6,
+                "columnId": 102,
+                "id": 8,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "integer"
+            },
+            "item_9": {
+                "modelId": 6,
+                "columnId": 103,
+                "id": 9,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:40:42",
+                "type": "boolean"
             }
         },
         "app_sections": {
@@ -6627,13 +6842,13 @@
         "schema_sections": {
             "item_1": {
                 "name": "App",
-                "scrollX": 24230,
-                "scrollY": 24797,
-                "zoom": 100,
+                "scrollX": 24148,
+                "scrollY": 24708,
+                "zoom": 80,
                 "projectId": 1,
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:22:46"
+                "updatedAt": "2025-06-15 12:40:44"
             },
             "__tableData": {
                 "count": 2,
@@ -7849,6 +8064,133 @@
                 "updatedAt": "2025-06-15 12:31:49",
                 "content": "<?php\n\nreturn [\n    'home' => 'Home',\n    'apps' => 'Apps',\n];\n"
             }
+        },
+        "relationships": {
+            "item_1": {
+                "modelId": 3,
+                "projectId": 1,
+                "name": "products",
+                "type": "HasMany",
+                "relatedTableName": "products",
+                "relatedModelName": "App\\Models\\Product",
+                "parentTableName": "categories",
+                "parentModelName": "App\\Models\\Category",
+                "foreignKeyName": "category_id",
+                "localKeyName": "id",
+                "ownerKeyName": null,
+                "relatedKeyName": null,
+                "morphType": null,
+                "createdFromInterface": false,
+                "foreignPivotKeyName": null,
+                "relatedPivotKeyName": null,
+                "pivotTableName": null,
+                "firstKeyName": null,
+                "secondKeyName": null,
+                "withPivotColumns": false,
+                "includedPivotColumns": [],
+                "schemaState": {
+                    "name": "products",
+                    "type": "HasMany",
+                    "relatedTableName": "products",
+                    "relatedModelName": "App\\Models\\Product",
+                    "parentTableName": "categories",
+                    "parentModelName": "App\\Models\\Category",
+                    "foreignKeyName": "category_id",
+                    "localKeyName": "id",
+                    "ownerKeyName": null,
+                    "relatedKeyName": null,
+                    "morphType": null,
+                    "foreignPivotKeyName": null,
+                    "relatedPivotKeyName": null,
+                    "pivotTableName": null,
+                    "firstKeyName": null,
+                    "secondKeyName": null,
+                    "withPivotColumns": false,
+                    "includedPivotColumns": []
+                },
+                "id": 1,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:47:57",
+                "relatedModelId": 2,
+                "parentKeyId": 75,
+                "foreignKeyId": 66,
+                "inverseId": 2,
+                "removed": false
+            },
+            "__tableData": {
+                "count": 2,
+                "lastPrimaryKey": 2,
+                "index": {
+                    "1": {
+                        "hasMany": {
+                            "relationships.inverseId": [
+                                2
+                            ]
+                        }
+                    },
+                    "2": {
+                        "hasMany": {
+                            "relationships.inverseId": [
+                                1
+                            ]
+                        }
+                    }
+                },
+                "additionalIndexes": {},
+                "items": [],
+                "relations": []
+            },
+            "item_2": {
+                "modelId": 2,
+                "projectId": 1,
+                "name": "category",
+                "type": "BelongsTo",
+                "relatedTableName": "categories",
+                "relatedModelName": "App\\Models\\Category",
+                "parentTableName": "products",
+                "parentModelName": "App\\Models\\Product",
+                "foreignKeyName": "category_id",
+                "localKeyName": null,
+                "ownerKeyName": "id",
+                "relatedKeyName": null,
+                "morphType": null,
+                "createdFromInterface": false,
+                "foreignPivotKeyName": null,
+                "relatedPivotKeyName": null,
+                "pivotTableName": null,
+                "firstKeyName": null,
+                "secondKeyName": null,
+                "withPivotColumns": false,
+                "includedPivotColumns": [],
+                "schemaState": {
+                    "name": "category",
+                    "type": "BelongsTo",
+                    "relatedTableName": "categories",
+                    "relatedModelName": "App\\Models\\Category",
+                    "parentTableName": "products",
+                    "parentModelName": "App\\Models\\Product",
+                    "foreignKeyName": "category_id",
+                    "localKeyName": null,
+                    "ownerKeyName": "id",
+                    "relatedKeyName": null,
+                    "morphType": null,
+                    "foreignPivotKeyName": null,
+                    "relatedPivotKeyName": null,
+                    "pivotTableName": null,
+                    "firstKeyName": null,
+                    "secondKeyName": null,
+                    "withPivotColumns": false,
+                    "includedPivotColumns": []
+                },
+                "id": 2,
+                "createdAt": "2025-06-15 12:40:42",
+                "updatedAt": "2025-06-15 12:47:57",
+                "relatedModelId": 3,
+                "parentKeyId": 75,
+                "foreignKeyId": 66,
+                "inverseId": 1,
+                "removed": false
+            }
         }
     },
     "tablesNames": [
@@ -7864,6 +8206,7 @@
         "app_sections",
         "schema_sections",
         "navs",
-        "renderable_files"
+        "renderable_files",
+        "relationships"
     ]
 }

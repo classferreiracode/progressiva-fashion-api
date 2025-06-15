@@ -10,4 +10,8 @@ class Testimonial extends Model
     use HasFactory;
 
     protected $fillable = ['name', 'photo', 'content', 'rating', 'status'];
+    protected $casts = [
+        'rating' => 'integer',
+        'status' => 'boolean',
+    ];
 }
