@@ -17,7 +17,7 @@ class ProductController extends Controller
             $query->whereHas('category', fn($q) => $q->where('slug', $request->category));
         }
 
-        $produtos = $query->orderBy('created_at', 'desc')->get();
+        $produtos = $query->get();
 
         return response()->json($produtos);
     }
