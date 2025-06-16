@@ -2533,6 +2533,7 @@
             "fillable": [
                 "title",
                 "slug",
+                "image",
                 "category_id",
                 "featured",
                 "description",

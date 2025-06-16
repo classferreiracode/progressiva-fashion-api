@@ -5,7 +5,7 @@
                 "uuid": "e81aaf35-2861-42a4-b99a-5cc68519d0a1",
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:45",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "settings": {
                     "cssFramework": "tailwind",
                     "uiStarterKit": "breeze",
@@ -97,7 +97,7 @@
                 "vthemeCdn": "https://cdn.tailwindcss.com",
                 "connectionFinished": true,
                 "canIgnoreNextSchemaSourceChanges": false,
-                "lastReadSchemaDataHash": "3f7734656facd9a84a549959ae17a2d5",
+                "lastReadSchemaDataHash": "7db1b94768f8aac4055d809422872e06",
                 "currentRenderedFilesPaths": [
                     "/lang/en//navigation.php",
                     "resources/views/components/ui//toast.blade.php",
@@ -334,7 +334,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": 0,
                 "positionY": 0,
                 "sectionId": 2,
@@ -620,7 +620,7 @@
                 },
                 "id": 2,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": 0,
                 "positionY": 700,
                 "sectionId": 2,
@@ -668,7 +668,7 @@
                 },
                 "id": 3,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": 495,
                 "positionY": 495,
                 "sectionId": 2,
@@ -716,7 +716,7 @@
                 },
                 "id": 4,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": 700,
                 "positionY": 0,
                 "sectionId": 2,
@@ -764,7 +764,7 @@
                 },
                 "id": 5,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": 495,
                 "positionY": -495,
                 "sectionId": 2,
@@ -784,7 +784,7 @@
                 },
                 "id": 6,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": 0,
                 "positionY": -700,
                 "sectionId": 2,
@@ -832,7 +832,7 @@
                 },
                 "id": 7,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": -495,
                 "positionY": -495,
                 "sectionId": 2,
@@ -876,7 +876,7 @@
                 },
                 "id": 8,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": -700,
                 "positionY": 0,
                 "sectionId": 2,
@@ -924,7 +924,7 @@
                 },
                 "id": 9,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": -495,
                 "positionY": 495,
                 "sectionId": 2,
@@ -972,7 +972,7 @@
                 },
                 "id": 10,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": -600,
                 "positionY": 0,
                 "sectionId": 1,
@@ -985,7 +985,7 @@
                 "createdFromInterface": false,
                 "id": 11,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": -200,
                 "positionY": 0,
                 "removed": false,
@@ -1029,7 +1029,7 @@
                 "createdFromInterface": false,
                 "id": 12,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": "248",
                 "positionY": "-41.25",
                 "removed": false,
@@ -1073,7 +1073,7 @@
                 "createdFromInterface": false,
                 "id": 13,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": "672.5",
                 "positionY": "-42.5",
                 "removed": false,
@@ -1117,7 +1117,7 @@
                 "createdFromInterface": false,
                 "id": 14,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": "-602",
                 "positionY": "375",
                 "removed": false,
@@ -1161,7 +1161,7 @@
                 "createdFromInterface": false,
                 "id": 15,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "positionX": "253.75",
                 "positionY": "379",
                 "removed": false,
@@ -1233,7 +1233,7 @@
                 "options": [],
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "__tableData": {
                 "count": 103,
@@ -1560,7 +1560,11 @@
                         }
                     },
                     "74": {
-                        "hasMany": {}
+                        "hasMany": {
+                            "fillable_model_column.columnId": [
+                                29
+                            ]
+                        }
                     },
                     "75": {
                         "hasMany": {
@@ -1772,7 +1776,7 @@
                 "options": [],
                 "id": 2,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_3": {
                 "name": "expiration",
@@ -1807,7 +1811,7 @@
                 "options": [],
                 "id": 3,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_4": {
                 "name": "key",
@@ -1842,7 +1846,7 @@
                 "options": [],
                 "id": 4,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_5": {
                 "name": "owner",
@@ -1877,7 +1881,7 @@
                 "options": [],
                 "id": 5,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_6": {
                 "name": "expiration",
@@ -1912,7 +1916,7 @@
                 "options": [],
                 "id": 6,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_7": {
                 "name": "id",
@@ -1946,7 +1950,7 @@
                 "options": [],
                 "id": 7,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_8": {
                 "name": "uuid",
@@ -1981,7 +1985,7 @@
                 "options": [],
                 "id": 8,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_9": {
                 "name": "connection",
@@ -2016,7 +2020,7 @@
                 "options": [],
                 "id": 9,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_10": {
                 "name": "queue",
@@ -2051,7 +2055,7 @@
                 "options": [],
                 "id": 10,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_11": {
                 "name": "payload",
@@ -2086,7 +2090,7 @@
                 "options": [],
                 "id": 11,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_12": {
                 "name": "exception",
@@ -2121,7 +2125,7 @@
                 "options": [],
                 "id": 12,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_13": {
                 "name": "failed_at",
@@ -2156,7 +2160,7 @@
                 "options": [],
                 "id": 13,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_14": {
                 "name": "id",
@@ -2190,7 +2194,7 @@
                 "options": [],
                 "id": 14,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_15": {
                 "name": "name",
@@ -2225,7 +2229,7 @@
                 "options": [],
                 "id": 15,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_16": {
                 "name": "total_jobs",
@@ -2260,7 +2264,7 @@
                 "options": [],
                 "id": 16,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_17": {
                 "name": "pending_jobs",
@@ -2295,7 +2299,7 @@
                 "options": [],
                 "id": 17,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_18": {
                 "name": "failed_jobs",
@@ -2330,7 +2334,7 @@
                 "options": [],
                 "id": 18,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_19": {
                 "name": "failed_job_ids",
@@ -2365,7 +2369,7 @@
                 "options": [],
                 "id": 19,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_20": {
                 "name": "options",
@@ -2400,7 +2404,7 @@
                 "options": [],
                 "id": 20,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_21": {
                 "name": "cancelled_at",
@@ -2435,7 +2439,7 @@
                 "options": [],
                 "id": 21,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_22": {
                 "name": "created_at",
@@ -2470,7 +2474,7 @@
                 "options": [],
                 "id": 22,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_23": {
                 "name": "finished_at",
@@ -2505,7 +2509,7 @@
                 "options": [],
                 "id": 23,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_24": {
                 "name": "id",
@@ -2539,7 +2543,7 @@
                 "options": [],
                 "id": 24,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_25": {
                 "name": "queue",
@@ -2574,7 +2578,7 @@
                 "options": [],
                 "id": 25,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_26": {
                 "name": "payload",
@@ -2609,7 +2613,7 @@
                 "options": [],
                 "id": 26,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_27": {
                 "name": "attempts",
@@ -2644,7 +2648,7 @@
                 "options": [],
                 "id": 27,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_28": {
                 "name": "reserved_at",
@@ -2679,7 +2683,7 @@
                 "options": [],
                 "id": 28,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_29": {
                 "name": "available_at",
@@ -2714,7 +2718,7 @@
                 "options": [],
                 "id": 29,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_30": {
                 "name": "created_at",
@@ -2749,7 +2753,7 @@
                 "options": [],
                 "id": 30,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_31": {
                 "name": "id",
@@ -2783,7 +2787,7 @@
                 "options": [],
                 "id": 31,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_32": {
                 "name": "migration",
@@ -2818,7 +2822,7 @@
                 "options": [],
                 "id": 32,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_33": {
                 "name": "batch",
@@ -2853,7 +2857,7 @@
                 "options": [],
                 "id": 33,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_34": {
                 "name": "email",
@@ -2888,7 +2892,7 @@
                 "options": [],
                 "id": 34,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_35": {
                 "name": "token",
@@ -2923,7 +2927,7 @@
                 "options": [],
                 "id": 35,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_36": {
                 "name": "created_at",
@@ -2958,7 +2962,7 @@
                 "options": [],
                 "id": 36,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_37": {
                 "name": "id",
@@ -2992,7 +2996,7 @@
                 "options": [],
                 "id": 37,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_38": {
                 "name": "tokenable_type",
@@ -3027,7 +3031,7 @@
                 "options": [],
                 "id": 38,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_39": {
                 "name": "tokenable_id",
@@ -3062,7 +3066,7 @@
                 "options": [],
                 "id": 39,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_40": {
                 "name": "name",
@@ -3097,7 +3101,7 @@
                 "options": [],
                 "id": 40,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_41": {
                 "name": "token",
@@ -3132,7 +3136,7 @@
                 "options": [],
                 "id": 41,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_42": {
                 "name": "abilities",
@@ -3167,7 +3171,7 @@
                 "options": [],
                 "id": 42,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_43": {
                 "name": "last_used_at",
@@ -3202,7 +3206,7 @@
                 "options": [],
                 "id": 43,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_44": {
                 "name": "expires_at",
@@ -3237,7 +3241,7 @@
                 "options": [],
                 "id": 44,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_45": {
                 "name": "created_at",
@@ -3272,7 +3276,7 @@
                 "options": [],
                 "id": 45,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_46": {
                 "name": "updated_at",
@@ -3307,7 +3311,7 @@
                 "options": [],
                 "id": 46,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_47": {
                 "name": "id",
@@ -3341,7 +3345,7 @@
                 "options": [],
                 "id": 47,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_48": {
                 "name": "user_id",
@@ -3376,7 +3380,7 @@
                 "options": [],
                 "id": 48,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_49": {
                 "name": "ip_address",
@@ -3411,7 +3415,7 @@
                 "options": [],
                 "id": 49,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_50": {
                 "name": "user_agent",
@@ -3446,7 +3450,7 @@
                 "options": [],
                 "id": 50,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_51": {
                 "name": "payload",
@@ -3481,7 +3485,7 @@
                 "options": [],
                 "id": 51,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_52": {
                 "name": "last_activity",
@@ -3516,7 +3520,7 @@
                 "options": [],
                 "id": 52,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_53": {
                 "name": "id",
@@ -3550,7 +3554,7 @@
                 "options": [],
                 "id": 53,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_54": {
                 "name": "name",
@@ -3585,7 +3589,7 @@
                 "options": [],
                 "id": 54,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_55": {
                 "name": "email",
@@ -3620,7 +3624,7 @@
                 "options": [],
                 "id": 55,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_56": {
                 "name": "email_verified_at",
@@ -3655,7 +3659,7 @@
                 "options": [],
                 "id": 56,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_57": {
                 "name": "password",
@@ -3690,7 +3694,7 @@
                 "options": [],
                 "id": 57,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_58": {
                 "name": "remember_token",
@@ -3725,7 +3729,7 @@
                 "options": [],
                 "id": 58,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_59": {
                 "name": "created_at",
@@ -3760,7 +3764,7 @@
                 "options": [],
                 "id": 59,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_60": {
                 "name": "updated_at",
@@ -3795,7 +3799,7 @@
                 "options": [],
                 "id": 60,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57"
+                "updatedAt": "2025-06-15 20:43:19"
             },
             "item_61": {
                 "name": "id",
@@ -3826,7 +3830,7 @@
                 "order": 0,
                 "id": 61,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -3861,7 +3865,7 @@
                 "order": 11,
                 "id": 62,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -3896,7 +3900,7 @@
                 "order": 12,
                 "id": 63,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -3930,7 +3934,7 @@
                 "faker": "fake()->sentence(10)",
                 "id": 64,
                 "createdAt": "2025-06-15 00:38:20",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -3965,7 +3969,7 @@
                 "faker": "fake()->unique->slug()",
                 "id": 65,
                 "createdAt": "2025-06-15 00:38:29",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -4000,7 +4004,7 @@
                 "faker": "fake()->randomNumber()",
                 "id": 66,
                 "createdAt": "2025-06-15 00:38:36",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -4035,7 +4039,7 @@
                 "faker": "fake()->boolean()",
                 "id": 67,
                 "createdAt": "2025-06-15 00:38:53",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -4070,7 +4074,7 @@
                 "faker": "fake()->sentence(15)",
                 "id": 68,
                 "createdAt": "2025-06-15 00:39:44",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 5,
                 "total": null,
                 "places": null,
@@ -4105,7 +4109,7 @@
                 "faker": "fake()->randomFloat(2, 0, 9999)",
                 "id": 69,
                 "createdAt": "2025-06-15 00:40:48",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 6,
                 "total": null,
                 "places": 0,
@@ -4140,7 +4144,7 @@
                 "faker": "fake()->randomFloat(2, 0, 9999)",
                 "id": 70,
                 "createdAt": "2025-06-15 00:40:53",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 7,
                 "total": null,
                 "places": 0,
@@ -4175,7 +4179,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 71,
                 "createdAt": "2025-06-15 00:41:24",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 8,
                 "total": null,
                 "places": null,
@@ -4211,7 +4215,7 @@
                 "project": 1,
                 "id": 72,
                 "createdAt": "2025-06-15 00:41:57",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 13,
                 "total": null,
                 "places": null,
@@ -4246,7 +4250,7 @@
                 "faker": "fake()->word()",
                 "id": 73,
                 "createdAt": "2025-06-15 00:42:15",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 9,
                 "total": null,
                 "places": null,
@@ -4280,7 +4284,7 @@
                 "autoIncrement": false,
                 "id": 74,
                 "createdAt": "2025-06-15 00:42:54",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 10,
                 "total": null,
                 "places": null,
@@ -4315,7 +4319,7 @@
                 "order": 0,
                 "id": 75,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4350,7 +4354,7 @@
                 "order": 5,
                 "id": 76,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4385,7 +4389,7 @@
                 "order": 6,
                 "id": 77,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4419,7 +4423,7 @@
                 "faker": "fake()->name()",
                 "id": 78,
                 "createdAt": "2025-06-15 00:44:39",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -4454,7 +4458,7 @@
                 "faker": "fake()->slug()",
                 "id": 79,
                 "createdAt": "2025-06-15 00:44:43",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -4488,7 +4492,7 @@
                 "autoIncrement": false,
                 "id": 80,
                 "createdAt": "2025-06-15 00:44:48",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -4523,7 +4527,7 @@
                 "faker": "fake()->word()",
                 "id": 81,
                 "createdAt": "2025-06-15 00:45:02",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -4558,7 +4562,7 @@
                 "order": 0,
                 "id": 82,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4593,7 +4597,7 @@
                 "order": 5,
                 "id": 83,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4628,7 +4632,7 @@
                 "order": 6,
                 "id": 84,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4661,7 +4665,7 @@
                 "autoIncrement": false,
                 "id": 85,
                 "createdAt": "2025-06-15 00:47:39",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -4696,7 +4700,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 86,
                 "createdAt": "2025-06-15 00:47:43",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -4731,7 +4735,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 87,
                 "createdAt": "2025-06-15 00:47:53",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -4766,7 +4770,7 @@
                 "faker": "fake()->word()",
                 "id": 88,
                 "createdAt": "2025-06-15 00:48:15",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -4802,7 +4806,7 @@
                 "project": 1,
                 "id": 89,
                 "createdAt": "2025-06-15 00:49:37",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 7,
                 "total": null,
                 "places": null,
@@ -4837,7 +4841,7 @@
                 "order": 0,
                 "id": 90,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4872,7 +4876,7 @@
                 "order": 4,
                 "id": 91,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4907,7 +4911,7 @@
                 "order": 5,
                 "id": 92,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -4941,7 +4945,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 93,
                 "createdAt": "2025-06-15 12:27:32",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -4976,7 +4980,7 @@
                 "faker": "fake()->text({LENGTH})",
                 "id": 94,
                 "createdAt": "2025-06-15 12:27:42",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -5011,7 +5015,7 @@
                 "faker": "fake()->word()",
                 "id": 95,
                 "createdAt": "2025-06-15 12:27:54",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -5046,7 +5050,7 @@
                 "order": 0,
                 "id": 96,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -5081,7 +5085,7 @@
                 "order": 6,
                 "id": 97,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -5116,7 +5120,7 @@
                 "order": 7,
                 "id": 98,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "total": null,
                 "places": null,
                 "options": []
@@ -5150,7 +5154,7 @@
                 "faker": "fake()->name()",
                 "id": 99,
                 "createdAt": "2025-06-15 12:29:01",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 1,
                 "total": null,
                 "places": null,
@@ -5184,7 +5188,7 @@
                 "autoIncrement": false,
                 "id": 100,
                 "createdAt": "2025-06-15 12:29:06",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 2,
                 "total": null,
                 "places": null,
@@ -5219,7 +5223,7 @@
                 "faker": "fake()->text()",
                 "id": 101,
                 "createdAt": "2025-06-15 12:29:11",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 3,
                 "total": null,
                 "places": null,
@@ -5254,7 +5258,7 @@
                 "faker": "fake()->randomFloat(1, 1, 5)",
                 "id": 102,
                 "createdAt": "2025-06-15 12:29:18",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 4,
                 "total": null,
                 "places": null,
@@ -5289,7 +5293,7 @@
                 "faker": "fake()->word()",
                 "id": 103,
                 "createdAt": "2025-06-15 12:29:32",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "order": 5,
                 "total": null,
                 "places": null,
@@ -5323,7 +5327,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "removed": false
             },
             "__tableData": {
@@ -5404,7 +5408,7 @@
                 },
                 "id": 2,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "removed": false
             },
             "item_3": {
@@ -5433,7 +5437,7 @@
                 },
                 "id": 3,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "removed": false
             },
             "item_4": {
@@ -5462,7 +5466,7 @@
                 },
                 "id": 4,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "removed": false
             },
             "item_5": {
@@ -5493,7 +5497,7 @@
                 },
                 "id": 5,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "removed": false
             },
             "item_6": {
@@ -5522,7 +5526,7 @@
                 },
                 "id": 6,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "removed": false
             }
         },
@@ -5699,7 +5703,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "plural": "Users",
                 "pluralAndSingularAreSame": false,
                 "tableId": 10,
@@ -5741,7 +5745,8 @@
                                 9,
                                 10,
                                 11,
-                                12
+                                12,
+                                29
                             ],
                             "relationships.relatedModelId": [
                                 1
@@ -5862,6 +5867,7 @@
                 "fillable": [
                     "title",
                     "slug",
+                    "image",
                     "category_id",
                     "featured",
                     "description",
@@ -5879,7 +5885,7 @@
                 "appends": [],
                 "id": 2,
                 "createdAt": "2025-06-15 00:38:04",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "hasSoftDeletes": true,
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
@@ -5901,6 +5907,7 @@
                     "fillable": [
                         "title",
                         "slug",
+                        "image",
                         "category_id",
                         "featured",
                         "description",
@@ -6005,7 +6012,7 @@
                 "appends": [],
                 "id": 3,
                 "createdAt": "2025-06-15 00:44:34",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "hasFillable": true,
                 "hasSoftDeletes": true,
                 "hooksWhenSchemaWasRead": {},
@@ -6114,7 +6121,7 @@
                 "appends": [],
                 "id": 4,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
                 "removed": false,
@@ -6203,7 +6210,7 @@
                 "appends": [],
                 "id": 5,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
                 "removed": false,
@@ -6294,7 +6301,7 @@
                 "appends": [],
                 "id": 6,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "hasFillable": true,
                 "hooksWhenSchemaWasRead": {},
                 "removed": false,
@@ -6353,8 +6360,8 @@
                 "updatedAt": "2025-06-14 23:33:46"
             },
             "__tableData": {
-                "count": 28,
-                "lastPrimaryKey": 28,
+                "count": 29,
+                "lastPrimaryKey": 29,
                 "index": {
                     "1": {
                         "hasMany": {}
@@ -6438,6 +6445,9 @@
                         "hasMany": {}
                     },
                     "28": {
+                        "hasMany": {}
+                    },
+                    "29": {
                         "hasMany": {}
                     }
                 },
@@ -6633,6 +6643,13 @@
                 "id": 28,
                 "createdAt": "2025-06-15 12:29:53",
                 "updatedAt": "2025-06-15 12:29:53"
+            },
+            "item_29": {
+                "modelId": 2,
+                "columnId": 74,
+                "id": 29,
+                "createdAt": "2025-06-15 20:43:19",
+                "updatedAt": "2025-06-15 20:43:19"
             }
         },
         "hidden_model_column": {
@@ -6848,7 +6865,7 @@
                 "projectId": 1,
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-15 12:40:44"
+                "updatedAt": "2025-06-15 20:43:12"
             },
             "__tableData": {
                 "count": 2,
@@ -8110,7 +8127,7 @@
                 },
                 "id": 1,
                 "createdAt": "2025-06-15 12:40:42",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "relatedModelId": 2,
                 "parentKeyId": 75,
                 "foreignKeyId": 66,
@@ -8184,7 +8201,7 @@
                 },
                 "id": 2,
                 "createdAt": "2025-06-15 12:40:42",
-                "updatedAt": "2025-06-15 12:47:57",
+                "updatedAt": "2025-06-15 20:43:19",
                 "relatedModelId": 3,
                 "parentKeyId": 75,
                 "foreignKeyId": 66,
