@@ -17,6 +17,11 @@ class ProductController extends Controller
             $query->whereHas('category', fn($q) => $q->where('slug', $request->category));
         }
 
+        // Filtro por featured opcional
+        if ($request->has('featured')) {
+            $query->where('featured', true);
+        }
+
         $produtos = $query->get();
 
         return response()->json($produtos);
