@@ -23,7 +23,7 @@ class ProductController extends Controller
             $query->where('featured', true);
         }
 
-        $produtos = Cache::remember('home-produtos', 60, fn() => $query->get());
+        $produtos = Cache::remember('home-produtos', 3600, fn() => $query->get());
 
         return response()->json($produtos);
     }
