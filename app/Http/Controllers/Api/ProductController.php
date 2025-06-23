@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
 use App\Models\Product;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Cache;
 
 class ProductController extends Controller
 {
@@ -22,7 +23,7 @@ class ProductController extends Controller
             $query->where('featured', true);
         }
 
-        $produtos = $query->get();
+        $produtos = Cache::remember('home-produtos', 60, fn() => $query->get());
 
         return response()->json($produtos);
     }

@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Cache;
 use App\Models\{Banner, Product, Feed, Testimonial, Faq};
 
 class HomeController extends Controller
@@ -12,8 +13,8 @@ class HomeController extends Controller
     {
         return response()->json([
             'banners' => Banner::where('status', true)->get(),
-            'destaques' => Product::where('featured', true)->where('status', true)->get(),
-            'produtos' => Product::where('status', true)->limit(12)->get(),
+            'destaques' => Cache::remember('destaques', 60, fn() => Product::where('featured', true)->where('status', true)->get()),
+            'produtos' => Cache::remember('produtos', 60, fn() => Product::where('status', true)->get()),
             'feed' => Feed::where('status', true)->get(),
             'testimonials' => Testimonial::where('status', true)->get(),
             'faqs' => Faq::where('status', true)->get()
