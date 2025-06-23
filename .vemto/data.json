@@ -992,9 +992,9 @@
                 },
                 "id": 10,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-23 10:59:55",
-                "positionX": -600,
-                "positionY": 0,
+                "updatedAt": "2025-06-23 14:33:04",
+                "positionX": "1475",
+                "positionY": "393.333",
                 "sectionId": 1,
                 "removed": false
             },
@@ -1093,9 +1093,9 @@
                 "createdFromInterface": false,
                 "id": 13,
                 "createdAt": "2025-06-15 00:47:35",
-                "updatedAt": "2025-06-23 10:59:55",
-                "positionX": "672.5",
-                "positionY": "-42.5",
+                "updatedAt": "2025-06-23 14:32:53",
+                "positionX": "249.667",
+                "positionY": "369.667",
                 "removed": false,
                 "migrations": [
                     {
@@ -1137,9 +1137,9 @@
                 "createdFromInterface": false,
                 "id": 14,
                 "createdAt": "2025-06-15 12:27:17",
-                "updatedAt": "2025-06-23 10:59:55",
-                "positionX": "-602",
-                "positionY": "375",
+                "updatedAt": "2025-06-23 14:33:06",
+                "positionX": "-572",
+                "positionY": "-3.33333",
                 "removed": false,
                 "migrations": [
                     {
@@ -1181,9 +1181,9 @@
                 "createdFromInterface": false,
                 "id": 15,
                 "createdAt": "2025-06-15 12:28:47",
-                "updatedAt": "2025-06-23 10:59:55",
-                "positionX": "253.75",
-                "positionY": "379",
+                "updatedAt": "2025-06-23 14:32:43",
+                "positionX": "-194.333",
+                "positionY": "589",
                 "removed": false,
                 "migrations": [
                     {
@@ -1225,9 +1225,9 @@
                 "createdFromInterface": false,
                 "id": 16,
                 "createdAt": "2025-06-23 10:28:16",
-                "updatedAt": "2025-06-23 10:59:55",
-                "positionX": "-189",
-                "positionY": "609.25",
+                "updatedAt": "2025-06-23 14:33:12",
+                "positionX": "-570.333",
+                "positionY": "315.667",
                 "removed": false,
                 "migrations": [
                     {
@@ -7453,13 +7453,13 @@
         "schema_sections": {
             "item_1": {
                 "name": "App",
-                "scrollX": 24428,
-                "scrollY": 25003,
-                "zoom": 90,
+                "scrollX": 24426,
+                "scrollY": 24741,
+                "zoom": 60,
                 "projectId": 1,
                 "id": 1,
                 "createdAt": "2025-06-14 23:33:46",
-                "updatedAt": "2025-06-23 11:00:01"
+                "updatedAt": "2025-06-23 14:32:34"
             },
             "__tableData": {
                 "count": 2,
