@@ -11,6 +11,9 @@ Route::get('/user', function (Request $request) {
 Route::get('/produtos', [ProductController::class, 'index'])
     ->name('api.produtos.index');
 
+Route::post('/search', [ProductController::class, 'search'])
+    ->name('api.produtos.search');
+
 Route::get('/produtos/{slug}', [ProductController::class, 'show'])
     ->name('api.produtos.show');
 

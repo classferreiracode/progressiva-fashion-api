@@ -28,6 +28,20 @@ class ProductController extends Controller
         return response()->json($produtos);
     }
 
+    public function search(Request $request)
+    {
+        $query = Product::with('category')->where('status', true);
+
+        // Filtro por pesquisa
+        if ($request->has('search')) {
+            $query->where('title', 'like', '%' . $request->search . '%');
+        }
+
+        $produtos = Cache::remember('home-produtos', 3600, fn() => $query->get());
+
+        return response()->json($produtos);
+    }
+
     public function show($slug)
     {
         $produto = Product::with('category')
