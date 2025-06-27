@@ -31,13 +31,8 @@ class ProductController extends Controller
     public function search(Request $request)
     {
         $query = Product::with('category')->where('status', true);
-
-        // Filtro por pesquisa
-        if ($request->has('search')) {
-            $query->where('title', 'like', '%' . $request->search . '%');
-        }
-
-        $produtos = Cache::remember('home-produtos', 3600, fn() => $query->get());
+        $query->where('title', 'like', '%' . $request->search . '%');
+        $produtos = Cache::remember('search-produtos-' . md5($request->search), 3600, fn() => $query->get());
 
         return response()->json($produtos);
     }
