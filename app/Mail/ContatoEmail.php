@@ -19,8 +19,8 @@ class ContatoEmail extends Mailable
 
     public function build()
     {
-        return $this->subject('Novo Contato: ' . $this->dados['assunto'])
-            ->markdown('emails.contato')
+        return $this->subject('📬 Novo Contato: ' . $this->dados['assunto'])
+            ->view('emails.contato') // Usando view em vez de markdown
             ->with('dados', $this->dados);
     }
 }
