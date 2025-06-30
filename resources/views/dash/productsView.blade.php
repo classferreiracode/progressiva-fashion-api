@@ -37,7 +37,7 @@
                                 @foreach ($products as $product)
                                 <tr>
                                     <td class="px-6 py-4 text-sm font-medium text-gray-900 whitespace-nowrap dark:text-gray-100">
-                                        <img src="{{ $product->image }}" alt="{{ $product->title }}" class="inline-block w-10 h-10 mr-2 rounded">
+                                        <img src="{{ asset('storage/' . $product->image) }}" alt="{{ $product->title }}" class="inline-block object-contain w-10 h-10 mr-2 rounded">
                                         {{ $product->title }}
                                     </td>
                                     <td class="px-6 py-4 text-sm text-gray-500 whitespace-nowrap dark:text-gray-400">R$ {{ number_format($product->price_regular, 2, ',', '.') }}</td>
