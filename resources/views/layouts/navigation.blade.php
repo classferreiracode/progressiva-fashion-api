@@ -1,24 +1,48 @@
-<nav x-data="{ open: false }" class="bg-white border-b border-gray-100 dark:bg-gray-800 dark:border-gray-700">
+<nav x-data="{ open: false }" class="border-b border-[#e9d7de] bg-[#fffaf4]">
     <!-- Primary Navigation Menu -->
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex">
                 <!-- Logo -->
                 <div class="flex items-center shrink-0">
-                    <a href="{{ route('dashboard') }}">
+                    <a href="{{ route('backoffice.dashboard') }}" class="flex items-center gap-3">
                         <x-application-logo class="block w-auto text-gray-800 fill-current h-9 dark:text-gray-200" />
+                        <div class="hidden md:block">
+                            <p class="text-xs font-extrabold uppercase tracking-[0.24em] text-[#782744]">Progressiva Fashion</p>
+                            <p class="text-sm font-semibold text-[#1f1720]">Backoffice</p>
+                        </div>
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    <x-nav-link :href="route('backoffice.dashboard')" :active="request()->routeIs('backoffice.dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('products.index')" :active="request()->routeIs('products.index')">
+                    <x-nav-link :href="route('backoffice.products.index')" :active="request()->routeIs('backoffice.products.*')">
                         Produtos
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('backoffice.banners.index')" :active="request()->routeIs('backoffice.banners.*')">
+                        Banners
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('backoffice.faqs.index')" :active="request()->routeIs('backoffice.faqs.*')">
+                        FAQs
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('backoffice.testimonials.index')" :active="request()->routeIs('backoffice.testimonials.*')">
+                        Depoimentos
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('backoffice.contacts.index')" :active="request()->routeIs('backoffice.contacts.*')">
+                        Contatos
                     </x-nav-link>
                 </div>
             </div>
@@ -72,11 +96,23 @@
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
-            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+            <x-responsive-nav-link :href="route('backoffice.dashboard')" :active="request()->routeIs('backoffice.dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
-            <x-responsive-nav-link :href="route('products.index')" :active="request()->routeIs('products.index')">
+            <x-responsive-nav-link :href="route('backoffice.products.index')" :active="request()->routeIs('backoffice.products.*')">
                 Produtos
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('backoffice.banners.index')" :active="request()->routeIs('backoffice.banners.*')">
+                Banners
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('backoffice.faqs.index')" :active="request()->routeIs('backoffice.faqs.*')">
+                FAQs
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('backoffice.testimonials.index')" :active="request()->routeIs('backoffice.testimonials.*')">
+                Depoimentos
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('backoffice.contacts.index')" :active="request()->routeIs('backoffice.contacts.*')">
+                Contatos
             </x-responsive-nav-link>
         </div>
 

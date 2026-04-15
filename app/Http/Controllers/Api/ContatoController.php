@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use App\Models\Contato;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ContatoRequest;
@@ -16,8 +17,8 @@ class ContatoController extends Controller
         try {
             $dados = $request->validated();
 
-            // Log para depuração
             \Log::info('Dados do formulário recebidos:', $dados);
+            Contato::create($dados);
 
             Mail::to(config('mail.from.address'))->send(new ContatoEmail($dados));
 

@@ -23,7 +23,12 @@ class ProductController extends Controller
             $query->where('featured', true);
         }
 
-        $produtos = Cache::remember('home-produtos', 3600, fn() => $query->get());
+        $cacheKey = 'produtos:' . md5(json_encode([
+            'category' => $request->get('category'),
+            'featured' => $request->boolean('featured'),
+        ]));
+
+        $produtos = Cache::remember($cacheKey, 3600, fn() => $query->get());
 
         return response()->json($produtos);
     }
